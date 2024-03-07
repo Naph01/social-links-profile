@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap')
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body { 
+    font-family: "inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.main-section {
+    height: auto;
+    width: auto;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5%;
+    padding: 20px;
+}
+
+h2, p {
+    color:hsl(0, 0%, 100%)
+}
+
+p {
+    opacity: 0.8;
+}
+
+h5 {
+    color: hsl(75, 94%, 57%);
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+.upper-section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+     
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-media button {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    color: hsl(0, 0%, 100%, 0.8);
+    cursor: pointer;
+    font-weight: 600;
+} 
+
+.social-media button:active{
+    outline: none;
+}
+
+.social-media button:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%, 0.8);
+}
